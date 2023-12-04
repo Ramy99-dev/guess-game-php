@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+form{
+    display : flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 10px;
+    
+}
+input{
+   
+    height:25px;
+}
+body{
+    height:80vh;
+    display : flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: #2E5266;
+}
+h1,label{
+    color:white;
+}
+*{
+    font-family: 'Nova Square', sans-serif;
+}
+button{
+    background-color:#FFA62B;
+    border:none;
+    padding:10px;
+    border-radius:10px;
+}
+input[type=submit]{
+    background-color:#2C5530;
+    border:none;
+    border-radius:10px;
+    color:white;
+    border-color: black;
+}
+#logout{
+    position:absolute;
+    right:10px;
+    top:10px;
+   
+}
+#logout > button{
+    background-color:red;
+    color:white;
+}
